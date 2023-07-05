@@ -8,9 +8,5 @@ def main():
         wakas = [s.strip() for s in f.readlines()]
         print("今日の一句" + wakas[random.randrange(len(wakas))])
 
-<<<<<<< HEAD
-print("今日の一句" + wakas[random.randrange(len(wakas))])
-=======
 if __name__ =='__main__':
     main()
->>>>>>> add_main
